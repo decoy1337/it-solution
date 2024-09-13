@@ -1,0 +1,73 @@
+a {
+  color: azure;
+  text-decoration: none;
+}
+.confi{
+    color: blue;
+    text-decoration: solid;
+}
+.mena {
+    color: black;
+    text-decoration: none;
+}
+.Korea {
+  color: black;
+  text-decoration: none;
+}
+.Korea:hover {
+    color: red;
+  }
+.japan {
+  color: black;
+  text-decoration: none;
+}
+.japan:hover {
+    color: red;
+  }
+.China {
+  color: black;
+  text-decoration: none;
+}
+.China:hover {
+    color: red;
+  }
+
+.navBar {
+  display: flex;
+}
+.AverageNav {
+  display: flex;
+  padding-right: 250px;
+  padding-left: 270px;
+  list-style-type: none;
+}
+
+.telegram {
+  width: 10px;
+}
+
+.watsap {
+  width: 20px;
+}
+
+.contact {
+  display: flex;
+  padding-left: 100px;
+}
+
+li {
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+.NavBar {
+  display: flex;
+}
+
+.ol {
+  list-style-type: none;
+}
+
+.logo {
+  padding-left: 300px;
+}

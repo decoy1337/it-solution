@@ -1,0 +1,40 @@
+.footer {
+    background-color: #282c34; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: space-around; 
+    margin-bottom: 15px; 
+}
+
+.footer-links a,
+.footer-socials a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+
+.footer-links a:hover,
+.footer-socials a:hover {
+    text-decoration: underline; 
+}
+
+.footer-bottom {
+    font-size: 14px; 
+}
+.auto1{
+display: flex;
+}
+.auto2{
+display: flex;
+}
+.auto3{
+display: flex;
+}
+.li:hover{
+color: red;
+}
