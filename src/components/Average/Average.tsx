@@ -36,7 +36,31 @@ function Average(): JSX.Element {
         </ul>
       </div>
       <div className="autoCheck">
-        <img src="./public/wrapper.png" className='wrapper' />
+        <img src="./public/wrapper.png" />
+        <button className='button1wrapper'>
+          <a href="#contacts">Оставить заявку</a>
+        </button>
+        <button className='button2wrapper'>
+        <a href="#contacts">Оставить заявку</a>
+        </button>
+        <button className='button3wrapper'>
+        <a href="#contacts">Оставить заявку</a>
+        </button>
+        <button className='button4wrapper'>
+        <a href="#contacts">Оставить заявку</a>
+        </button>
+        <button className='button5wrapper'>
+        <a href="#contacts">Оставить заявку</a>
+        </button>
+        <button className='button6wrapper'>
+        <a href="#contacts">Оставить заявку</a>
+        </button>
+        <button className='button7wrapper'>
+        <a href="#contacts">Оставить заявку</a>
+        </button>
+        <button className='button8wrapper'>
+        <a href="#contacts">Оставить заявку</a>
+        </button>
       </div>
       <div className="frame2" id='Korea'>
         <img src="./public/Frame2.png" id='China'/>
@@ -44,7 +68,7 @@ function Average(): JSX.Element {
       <div className="frame3" id='Company'>
         <img src="./public/Frame3.png" />
       </div>
-      <div className='sellll'>
+      <div >
         <button className="sell">
           Расчитать Стоимость
         </button>
@@ -53,7 +77,6 @@ function Average(): JSX.Element {
         <img src="./public/Feedback.png" />
       </div>
       <div className="formCall" id='contacts'>
-        <div>
         <div className="color">
           <div className='infoContact'>Контактная информация</div>
           <div>Оставьте свою заявку и наш менеджер свяжется с вами для уточнения деталей.</div>
@@ -77,19 +100,19 @@ function Average(): JSX.Element {
             <li>
               <img src="./public/4.jpg" alt="2gis" className="gis" />
             </li>
-            <li><a href="https://2gis.ru/sochi/search/%D0%9B%D0%BE%D0%BE" id='ru'>Мы на 2гис</a></li>
+            <li><a href="https://2gis.ru/sochi/search/%D0%9B%D0%BE%D0%BE">Мы на 2гис</a></li>
           </ul>
           <ul className="cards2">
             <li>
               <img src="./public/5.png" alt="Yandex" className="Yandex" />
             </li>
-            <li><a href="https://yandex.ru/maps/11406/artem/?ll=132.180335%2C43.353050&z=13" id='ru'>Мы на Яндекс картах</a></li>
+            <li><a href="https://yandex.ru/maps/11406/artem/?ll=132.180335%2C43.353050&z=13">Мы на Яндекс картах</a></li>
           </ul>
           <ul className="cards3">
             <li>
               <img src="./public/6.png" alt="VL" className="VL" />
             </li>
-            <li><a href="https://www.vl.ru/" id='ru'>VL справочник</a></li>
+            <li><a href="https://www.vl.ru/">VL справочник</a></li>
           </ul>
         </div>
         <div className="form">
@@ -142,7 +165,6 @@ function Average(): JSX.Element {
               </button>
             </form>
           </div>
-        </div>
         </div>
       </div>
     </div>

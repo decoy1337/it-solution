@@ -1,248 +1,292 @@
-.Auto{
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-.sellll{
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+
+.Photo {
+  margin-top: 100px;
+  padding-left: 450px;
 }
 
-.formCall{
-    background-color: black;
-
+.Autojapan {
+  padding-left: 450px;
+  padding-top: 20px;
 }
 
-#ru{
-    color: white;
+.strelka {
+  width: 10px;
 }
 
-.Average {
-    .Photo {
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
-  
-    .Auto {
-      .Autojapan {
-        font-weight: bold;
-        font-size: 24px;
-        margin-bottom: 10px;
-      }
-  
-      .all {
-        list-style-type: none;
-        padding: 0;
-  
-        li {
-          margin-bottom: 5px;
-        }
-  
-        .watchAll {
-          display: flex;
-          align-items: center;
-          cursor: pointer;
-  
-          .strelka {
-            width: 20px;
-            height: 20px;
-            margin-left: 5px;
-          }
-        }
-      }
-    }
-  
-    .autoCheck {
-      .wrapper {
-        width: 100%;
-        height: auto;
-      }
-  
-      button {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 4px;
-  
-        a {
-          color: white;
-          text-decoration: none;
-        }
-      }
-    }
-  
-    .frame2 {
-      #China {
-        width: 100%;
-        height: auto;
-      }
-    }
-  
-    .frame3 {
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
-  
-    .sell {
-      background-color: black;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      border-radius: 8px;
-    }
-    .sell:hover{
-        background-color: red;
-    }
-    .feedback {
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
-  
-    .formCall {
-        width: 1000px;
-       
-       
-        
-      .color {
-        width: 500px;
-        color: white;
-        padding: 20px;
-  
-        .infoContact {
-          font-weight: bold;
-          font-size: 18px;
-          margin-bottom: 10px;
-        }
-      }
-  
-      .contactInfo {
-        font-weight: bold;
-        font-size: large;
-        justify-content: space-between;
-        margin-top: 20px;
-        color: white;
-  
-        ul {
-          list-style-type: none;
-          padding: 0;
-  
-          li {
-            margin-bottom: 5px;
-          }
-        }
-      }
-  
-      .cards {
-        display: inline-flex;
-        justify-content: space-between;
-       
-  
-        ul {
-          list-style-type: none;
-          padding: 0;
-          text-align: center;
-  
-          li {
-            margin-bottom: 10px;
-          }
-  
-          .gis,
-          .Yandex,
-          .VL {
-            width: 50px;
-            height: 50px;
-          }
-  
-          a {
-            text-decoration: none;
-            color: #007bff;
-          }
-        }
-      }
-  
-      .form {
-        border-radius: 20px 20px 0 0;
-        width: 400px;
-        margin-left: 200px;
-        margin-top: 20px;
-        background-color: white;
-        
-        .formName {
-          font-weight: bold;
-          font-size: 18px;
-          margin-bottom: 10px;
-          color: white;
-        }
-  
-        form {
-          .name,
-          .number,
-          .question {
-            margin-left: 60px;
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 10px;
-  
-            li {
-              margin-bottom: 5px;
-            }
-  
-            .nameinput,
-            .numberinput,
-            .questioninput {
-              padding: 5px;
-              border: 1px solid #ccc;
-              border-radius: 4px;
-            }
-          }
-  
-          .confi {
-            color: blue;
-            text-decoration: none;
-          }
-  
-          .button {
-            margin-left: 200px;
-            background-color: black;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin-top: 10px;
-            cursor: pointer;
-            border-radius: 8px;
-          }
-        }
-      }
-    }
-  }
+.all {
+  display: flex;
+  padding-left: 420px;
+}
+
+.watchAll {
+  padding-left: 1250px;
+}
+
+.frame2 {
+  padding-left: 450px;
+  padding-top: 20px;
+}
+
+.frame3 {
+  padding-left: 450px;
+  padding-top: 20px;
+}
+
+.feedback {
+  padding-left: 350px;
+  padding-top: 20px;
+}
+.autoCheck {
+  padding-left: 450px;
+}
+.formCall {
+  width: 1520px;
+  height: 380px;
+  margin-left: 500px;
+  background-color: #282c34;
+  border-radius: 30px 30px 30px 30px;
+}
+.cards {
+  position: absolute;
+  right: 1450px;
+  top: 3500px;
+  color: azure;
+}
+.form {
+  position: absolute;
+  width: 400px;
+  right: 700px;
+  top: 3548px;
+  border-radius: 20px 20px 0 0;
+  background-color: white;
+}
+.contactInfo {
+  color: azure;
+}
+.color {
+  color: azure;
+  margin-left: 100px;
+}
+.cards1 {
+  display: flex;
+}
+.cards2 {
+  display: flex;
+}
+.cards3 {
+  display: flex;
+}
+.gis {
+  width: 20px;
+}
+.infoContact {
+  font-size: larger;
+  font-weight: bold;
+}
+.Yandex {
+  width: 20px;
+}
+.VL {
+  width: 20px;
+}
+.formName {
+  margin-left: 130px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.name {
+  margin-left: 30px;
+}
+.number {
+  margin-left: 30px;
+}
+.question {
+  margin-left: 30px;
+}
+
+.button {
+  margin-left: 300px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #464444;
+}
+
+.nameinput {
+  border: none;
+  outline: none;
+  padding: 1px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+.numberinput {
+  border: none;
+  outline: none;
+  padding: 2px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+.questioninput {
+  border: none;
+  outline: none;
+  padding: 2px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+.sell {
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 1200px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.sell:hover {
+  background-color: red;
+}
+.button1wrapper {
+  right: 425px;
+  top: 1345px;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button1wrapper:hover {
+    background-color: #282c34;
+}
+.button2wrapper {
+  right: 425px;
+  top: 1835px;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button2wrapper:hover {
+  background-color: red;
+}
+.button3wrapper {
+  right: 845px;
+  top: 1835px;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button3wrapper:hover {
+  background-color: red;
+}
+.button4wrapper {
+  right: 1270px;
+  top: 1835px;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button4wrapper:hover {
+  background-color: red;
+}
+.button5wrapper {
+  right: 1690px;
+  top: 1835px;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button5wrapper:hover {
+  background-color: red;
+}
+.button6wrapper {
+  right: 845px;
+  top: 1345px;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button6wrapper:hover {
+  background-color: red;
+}
+.button7wrapper {
+  right: 1270px;
+  top: 1345px;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button7wrapper:hover {
+  background-color: red;
+}
+.button8wrapper {
+  right: 1690px;
+  top: 1345px;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button8wrapper:hover {
+  background-color: red;
+}
+css a {
+  color: azure;
+  text-decoration: none;
+}
 
 
 
